@@ -1,0 +1,1 @@
+g++ -o run -O3 main.cpp Apriori_handler.cpp Apriori_handler.h FP_Tree_handler.cpp FP_Tree_handler.h

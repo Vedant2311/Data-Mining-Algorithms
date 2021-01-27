@@ -1,0 +1,2 @@
+g++ -std=c++11 -O3 -o rtree rtree_runner.cpp -I${libdir}/include -L${libdir}/libs -lspatialindex_c -lspatialindex
+g++ -std=c++11 -O3 -o lsh lsh_runner.cpp -march=native -I${libdir}/falconn/src/include -I${libdir}/falconn/external/eigen -I${libdir}/falconn/external/simple-serializer -pthread
